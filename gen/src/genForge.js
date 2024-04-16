@@ -229,7 +229,39 @@ let forges = [
         ],
         duration : 0.5,
         hotmRequirement: 2,
-    },{ //5
+    },
+    { 
+        name : "Bejeweled Collar",
+        source: this.sourceAuction,
+        npcPrice: 100,
+        materials: [
+            {
+                options: [
+                    "Bejeweled Handle",
+                ],
+                quantity: [
+                    1,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ],
+            },
+            {
+                options: [
+                    "Refined Mithril",
+                ],
+                quantity: [
+                    4,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ],
+            },
+        ],
+        duration : 2,
+        hotmRequirement: 2,
+    },
+    { //5
         name : "Drill Engine",
         source: this.sourceBazaar,
         npcPrice: 0,
@@ -482,7 +514,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -515,7 +547,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -548,7 +580,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -581,7 +613,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -614,7 +646,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -647,7 +679,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -680,7 +712,7 @@ let forges = [
                     1,
                 ],
                 source: [
-                    this.sourceWarning,
+                    this.sourceOthers,
                 ],
                 codedPrices: [
                     0,
@@ -690,7 +722,29 @@ let forges = [
         duration : 20,
         hotmRequirement: 5,
         gemstoneRequirement: 10,
-    },{ //16
+    },
+    { 
+        name : "Perfect Opal Gemstone",
+        npcPrice: 0,
+        source: this.sourceBazaar,
+        materials: [
+            {
+                options: [
+                    "Flawless Opal Gemstone",
+                ],
+                quantity: [
+                    5,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ],
+            }
+        ],
+        duration : 20,
+        hotmRequirement: 5,
+        gemstoneRequirement: 10,
+    },
+    { //16
         name : "Mithril Pickaxe",
         npcPrice: 0,
         materials: [
@@ -848,8 +902,8 @@ let forges = [
                     "Ender Pearl",
                 ],
                 quantity: [
-                    80,
-                    1600,
+                    16,
+                    320,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1409,10 +1463,20 @@ let forges = [
         materials: [
             {
                 options: [
-                    "Mithril Plate",
+                    "Refined Diamond",
                 ],
                 quantity: [
-                    3,
+                    5,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ]
+            },{
+                options: [
+                    "Refined Mithril",
+                ],
+                quantity: [
+                    10,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1757,7 +1821,7 @@ let forges = [
                     "Golden Plate",
                 ],
                 quantity: [
-                    10,
+                    5,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1767,7 +1831,7 @@ let forges = [
                     "Mithril Plate",
                 ],
                 quantity: [
-                    2,
+                    1,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1861,7 +1925,7 @@ let forges = [
                     "Refined Mithril",
                 ],
                 quantity: [
-                    99,
+                    20,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2225,18 +2289,7 @@ let forges = [
                     "Refined Diamond",
                 ],
                 quantity: [
-                    10,
-                ],
-                source: [
-                    this.sourceBazaar,
-                ]
-            },
-            {
-                options: [
-                    "Refined Mithril",
-                ],
-                quantity: [
-                    10,
+                    5,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2247,10 +2300,18 @@ let forges = [
                     "Fuel Tank",
                 ],
                 quantity: [
-                    10,
+                    5,
                 ],
                 source: [
                     this.sourceBazaar,
+                ]
+            },
+            {
+                options: [
+                    "Mithril-Infused Fuel Tank",
+                ],
+                quantity: [
+                    1,
                 ]
             },
         ],
@@ -2440,6 +2501,9 @@ let forges = [
                 ],
                 quantity: [
                     5,
+                ],
+                source: [
+                    this.sourceBazaar,
                 ],
             },
         ],
@@ -2667,7 +2731,7 @@ let forges = [
                     "Treasurite",
                 ],
                 quantity: [
-                    1000,
+                    100,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2880,4 +2944,4 @@ let forges = [
     },
 ];
 
-//TOTAL: 78 -1 (item 51 commented)
+
