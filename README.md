@@ -4,6 +4,15 @@ Hypixel Skyblock - Minions Calculator and Events Timer. Know your most profitabl
 
 The website is live at https://hyminions.herokuapp.com
 
+## Disclaimer
+
+I have forked KidProf's HyMinions git repo with the aim to restore up-to-date Forge calculator data.
+A personal API token key is needed. The changes were needed because KidProf used their own personal backend to fetch Auction data.
+The functionality was restored by modifying and adapting old unused code.
+The new Forge contacts directly Hypixel's own API, and has to perform up to 70 API requests every time the Forge page gets loaded, so expect load times up to 30 seconds on page refresh.
+
+All credits go to KidProf for the awesome tool, and the original contributors/credits.
+
 ## Installation
 
 Requires Node.js and npm
