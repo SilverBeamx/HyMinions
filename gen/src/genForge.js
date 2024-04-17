@@ -1459,6 +1459,7 @@ let forges = [
         hotmRequirement: 3,
     },{ //42
         name : "Mithril-Infused Fuel Tank",
+        rawId : "MITHRIL_FUEL_TANK",
         npcPrice: 0,
         materials: [
             {
