@@ -40,4 +40,4 @@ yarn.lock
 
 .vscode/
 
-gen/output/
+gen/output/*.js
