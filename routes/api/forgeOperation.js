@@ -142,7 +142,7 @@ exports.calculateForge = async function(forges, settings){
     if(settings.ah==1&&(!lastUpdatedAuction||Date.now()-lastUpdatedAuction>5*60*1000)){ //call again if prev result has error, 5 min timeout        
         lastUpdatedAuction = Date.now();
         await updateAuctions(settings).then((minAuctions)=>{
-            console.log(minAuctions)
+            //console.log(minAuctions)
             lastUpdatedAuctionServer = settings.lastUpdatedAuctionServer;
             news = settings.news;
             //incorporate minAuctions into forges
