@@ -848,8 +848,8 @@ let forges = [
                     "Ender Pearl",
                 ],
                 quantity: [
-                    80,
-                    1600,
+                    16,
+                    320,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1405,14 +1405,26 @@ let forges = [
         hotmRequirement: 3,
     },{ //42
         name : "Mithril-Infused Fuel Tank",
+        rawId : "MITHRIL_FUEL_TANK",
         npcPrice: 0,
         materials: [
             {
                 options: [
-                    "Mithril Plate",
+                    "Refined Diamond",
                 ],
                 quantity: [
                     3,
+                 5,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ]
+            },{
+                options: [
+                    "Refined Mithril",
+                ],
+                quantity: [
+                    10,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1747,7 +1759,7 @@ let forges = [
                     "Mithril Drill SX-R226",
                 ],
                 quantity: [
-                    1,
+                    5,
                 ],
                 approximateMatch: [
                     true,
@@ -1757,7 +1769,7 @@ let forges = [
                     "Golden Plate",
                 ],
                 quantity: [
-                    10,
+                    1,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -1861,7 +1873,7 @@ let forges = [
                     "Refined Mithril",
                 ],
                 quantity: [
-                    99,
+                    20,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2225,7 +2237,7 @@ let forges = [
                     "Refined Diamond",
                 ],
                 quantity: [
-                    10,
+                    5,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2233,21 +2245,18 @@ let forges = [
             },
             {
                 options: [
-                    "Refined Mithril",
+                    "Mithril-Infused Fuel Tank",
                 ],
                 quantity: [
-                    10,
+                    1,
                 ],
-                source: [
-                    this.sourceBazaar,
-                ]
             },
             {
                 options: [
                     "Fuel Tank",
                 ],
                 quantity: [
-                    10,
+                    5,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2440,6 +2449,9 @@ let forges = [
                 ],
                 quantity: [
                     5,
+                ],
+                source: [
+                    this.sourceBazaar,
                 ],
             },
         ],
@@ -2667,7 +2679,7 @@ let forges = [
                     "Treasurite",
                 ],
                 quantity: [
-                    1000,
+                    100,
                 ],
                 source: [
                     this.sourceBazaar,
@@ -2877,7 +2889,59 @@ let forges = [
         ],
         duration : 50, //2 days 2 hours
         hotmRequirement: 7,
+    }, //78
+    { 
+        name : "Bejeweled Collar",
+        source: this.sourceAuction,
+        npcPrice: 100,
+        materials: [
+            {
+                options: [
+                    "Bejeweled Handle",
+                ],
+                quantity: [
+                    1,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ],
+            },
+            {
+                options: [
+                    "Refined Mithril",
+                ],
+                quantity: [
+                    4,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ],
+            },
+        ],
+        duration : 2,
+        hotmRequirement: 2,
+    }, // 79
+    { 
+        name : "Perfect Opal Gemstone",
+        npcPrice: 0,
+        source: this.sourceBazaar,
+        materials: [
+            {
+                options: [
+                    "Flawless Opal Gemstone",
+                ],
+                quantity: [
+                    5,
+                ],
+                source: [
+                    this.sourceBazaar,
+                ],
+            }
+        ],
+        duration : 20,
+        hotmRequirement: 5,
+        gemstoneRequirement: 10,
     },
 ];
 
-//TOTAL: 78 -1 (item 51 commented)
+//TOTAL: 80 -1 (item 51 commented)
