@@ -874,6 +874,7 @@ let forges = [
         hotmRequirement: 2,
     },{ //22
         name : "Helmet of Divan",
+        rawId: "DIVAN_HELMET",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -915,6 +916,7 @@ let forges = [
         hotmRequirement: 6,
     },{ //23
         name : "Chestplate of Divan",
+        rawId: "DIVAN_CHESTPLATE",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -955,6 +957,7 @@ let forges = [
         hotmRequirement: 6,
     },{ //24
         name : "Leggings of Divan",
+        rawId: "DIVAN_LEGGINGS",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -995,6 +998,7 @@ let forges = [
         hotmRequirement: 6,	
     },{ //25
         name : "Boots of Divan",
+        rawId: "DIVAN_BOOTS",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -1366,6 +1370,7 @@ let forges = [
         hotmRequirement: 3,
     },{ //41
         name : "Mithril Drill SX-R226",
+        rawId : "MITHRIL_DRILL_1",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -1444,6 +1449,7 @@ let forges = [
         hotmRequirement: 3,
     },{ //43
         name : "Mithril-Plated Drill Engine",
+        rawId : "MITHRIL_DRILL_ENGINE",
         npcPrice: 0,
         materials: [
             {
@@ -1626,6 +1632,7 @@ let forges = [
         hotmRequirement: 4,
     },{ //50
         name : "Ammonite",
+        rawId : "PET_AMMONITE",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -1655,6 +1662,7 @@ let forges = [
         hotmRequirement: 3,
     },{ //50
         name : "Ruby Drill TX-15",
+        rawId : "GEMSTONE_DRILL_1",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -1750,6 +1758,7 @@ let forges = [
     //     hotmRequirement: 3,
     },{ //52
         name : "Mithril Drill SX-R326",
+        rawId : "MITHRIL_DRILL_2",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -1989,6 +1998,7 @@ let forges = [
         hotmRequirement: 6,
     },{ //59
         name : "Gemstone Drill LT-522",
+        rawId : "GEMSTONE_DRILL_2",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -2334,6 +2344,7 @@ let forges = [
         hotmRequirement: 5,
     },{ //66
         name : "Spicy Goblin Omelette",
+        rawId : "GOBLIN_OMELETTE_SPICY",
         npcPrice: 0,
         materials: [
             {
@@ -2406,6 +2417,7 @@ let forges = [
         hotmRequirement: 5,
     },{ //68
         name : "Topaz Drill KGR-12",
+        rawId: "GEMSTONE_DRILL_3",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -2648,6 +2660,7 @@ let forges = [
         hotmRequirement: 6,
     },{ //72
         name : "Jasper Drill X",
+        rawId : "GEMSTONE_DRILL_4",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
@@ -2737,6 +2750,7 @@ let forges = [
         hotmRequirement: 6,
     },{ //74
         name : "Divan's Drill",
+        rawId: "DIVAN_DRILL",
         approximateMatch: true,
         npcPrice: 0,
         materials: [
