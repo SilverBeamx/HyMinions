@@ -1413,8 +1413,7 @@ let forges = [
                     "Refined Diamond",
                 ],
                 quantity: [
-                    3,
-                 5,
+                    5,
                 ],
                 source: [
                     this.sourceBazaar,
